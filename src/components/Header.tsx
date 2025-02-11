@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Header = () => {
   return (
     <header className="bg-blue-500 w-full py-4 text-white text-center">
