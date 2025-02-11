@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import { chromium } from "playwright";
+import { scrapeListings } from "./utils/scraper.js";
 
 const app = express();
 const PORT = 5001;
